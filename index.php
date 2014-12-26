@@ -9,10 +9,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
     </head>
     <body>
-        <p class="well-lg">Last updated: 
-            <?php
-            echo date('l jS \of F Y h:i:s A');
-            ?>
-        </p>
+        
     </body>
 </html>
