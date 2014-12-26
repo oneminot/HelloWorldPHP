@@ -7,11 +7,12 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <script src="js/bootstrap.min.js"></script>        
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
-
     </head>
     <body>
-        <?php 
-            echo 'Hello, world!';
-        ?>
+        <p class="well-lg">Last updated: 
+            <?php
+            echo date('l jS \of F Y h:i:s A');
+            ?>
+        </p>
     </body>
 </html>
